@@ -1,4 +1,4 @@
-                                               /* css for index.html */
+                              /* css for index.html */
 /* колір основного шрифту   color: #212121; */
 
 body{
@@ -23,7 +23,7 @@ body{
     text-decoration: none;
 }
 
-.section-color{
+.section-hero{
     background: #2f303a;
     width: 1600px;
  
@@ -46,8 +46,30 @@ body{
     text-align: center;
     color: #fff;
     width: 216px;
+    margin: 0 auto;
+    display: block;
 }
 
+.subtitle{
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        text-align: center;
+}
+.lead{
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #757575;
+}
+
+.subject{
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+}
 
 .site-nav a{
     color: #212121;
@@ -89,6 +111,11 @@ li {
     list-style-type: none;
 }
 
+.bottom-section{
+    background: #f5f4fa;
+    width: 1600px;
+}
+
 .footer {
     background: #2f303a;
     width: 1600px;
@@ -127,6 +154,15 @@ color: white;
     text-decoration: none;
 }
                                            /* Portfolio HTML */
+
+ .links .navigation-first{
+    background: #2196f3;
+    color: #fff;
+    font-weight: 500;
+     font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+ }
 
  .links .navigation:focus,
  .links .navigation:hover {
@@ -186,6 +222,7 @@ color: white;
 
  .footer .studio-footer>span {
      color: #fff;
+    
  }
 
  .studio-footer {
@@ -196,5 +233,3 @@ color: white;
 
 
 
-
-       
