@@ -125,6 +125,7 @@ letter-spacing: 0.02em;
 .site-nav .link-mails {
     color:var(--grey-color);
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 .site-nav .link-mails:hover,
@@ -288,3 +289,10 @@ color: var(--background-white);
 a {
     text-decoration: none;
 }
+
+
+
+.site-nav .link {
+    text-transform: capitalize
+}
+
